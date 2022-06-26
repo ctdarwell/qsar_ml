@@ -140,7 +140,6 @@ plt.figure(figsize=(5, 10))
 sns.set_theme(style="whitegrid")
 ax = sns.barplot(x = 'Gini', y = 'Feature', data = df_sorted)
 plt.xlabel("Feature Importance")
-plt.show()
 plt.savefig('feat_imp.pdf')
 
 print("*** NOW REPEAT FOR DPC ***")
