@@ -72,7 +72,7 @@ ax.set(xlim=(0, 1))
 plt.savefig('matthews_corrcoef.pdf')
 
 
-#Random Forest - looks most consistent across two metrics
+#Random Forest - looks consistently best across two metrics
 # Build random forest model
 from sklearn.ensemble import RandomForestClassifier
 rf = RandomForestClassifier(n_estimators=500)
